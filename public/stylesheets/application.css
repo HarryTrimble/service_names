@@ -1972,6 +1972,10 @@ input[type=number] {
   color: #6f777b;
 }
 
+.design-update {
+  font-size: 14px;
+}
+
 .header-logo img {
   display: none;
 }

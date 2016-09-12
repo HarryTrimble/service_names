@@ -1,4 +1,4 @@
-{% extends "layout_guidance.html" %}
+{% extends "layout.html" %}
 
 {% block page_title %}
   Pattern: service names
@@ -8,7 +8,19 @@
 
 <main id="content" role="main">
 
-{% include "includes/phase_banner_beta.html" %}
+  <div class="breadcrumbs">
+    <ol>
+      <li>
+        <a href="/task_list">Home</a>
+      </li>
+      <li>
+        Design
+      </li> 
+      <li>
+        Find patterns
+      </li> 
+    </ol>
+  </div>
 
 <div class="grid-row">
     <div class="column-two-thirds">
@@ -17,18 +29,8 @@
       <br></span>Service names
       </h1>
 
-      <p class="lede">
-      What to call it is the most important conversation you can have about a service. 
-      </p>
-
-      <p class="lede">
-      If you do this well, you'll make it easier for users to find and understand your service. 
-      </p>
-
-    <br>
-
     <p class="design-update">
-    Last updated: 15 July 2016
+    Last updated: two weeks agao
     </h3>
 
     <br>
@@ -40,63 +42,79 @@
 <div class="grid-row">
     <div class="column-one-third">
 
-  <ol class="list list-bullet pattern_nav">
-    <li><a href="#1">good services are verbs</a></li>
-    <li><a href="#2">describe the problem</a></li>
-    <li><a href="#3">use the words user use</a></li>
-    <li><a href="#4">case study</a></li>
-    <li><a href="#5">measure name performance</a></li>
-    <!--
-    <li><a href="#6">measuring how it's working</a></li>
-    <li><a href="#7">check before start in your service</a></li>
-    -->
-  </ol>
+      <p class="bold">Page contents:</p>
 
-  </div>
+      <ol class="list list-bullet pattern_nav">
+        <li><a href="#1">why service names are important</a></li>
+        <li><a href="#1">how to name your service</a></li>
+        <li><a href="#1">examples of good service names</a></li>
+        <li><a href="#5">measure name performance</a></li>
+      </ol>
 
-  <div class="column-two-thirds">
+      </div>
 
-  <h3 class="heading-medium" id="1" style="margin-top: 0px;">Good services are verbs</h3>
+      <div class="column-two-thirds">
 
-  <p>Good services are verbs, bad services are nouns.</p>
+      <h3 class="heading-medium" id="1" style="margin-top: 0px;">Why service names are important</h3>
 
-  <p>Examples of good service names:</p>
+      <p>
+        What to call a service is the most important conversation a service team can have.  
+      </p>
 
-  <ul class="list list-bullet">
-    <li><a href="https://www.gov.uk/register-to-vote">Register to vote</a>, CO</li>
-    <li><a href="#">Help with fees</a>, MoJ</a>
-    <li><a href="#">Renew passport</a>, HO,</li>
-    <li><a href="https://www.gov.uk/apply-apprenticeship">Find an apprenticeship</a>, BIS</li>
-  </ul>
+      <p>
+        Do it well, you'll make your service:
+      </p>
 
-  <p>Verb are good becasue they describe the task</p>
+      <ul class="list list-bullet">
+        <li>easier to find</li>
+        <li>clearer to understand</a>
+        <li>have less calls from users asking 'how do I...?'</a>
+      </ul>
 
-  <hr>
+      <hr>
 
-  <h3 class="heading-medium" id="2">Describe the problem</h3>
+      <h3 class="heading-medium" id="2">How to name your service</h3>
 
-  <p>Some text</p>
+      <p>There are principles you can follow to name your service.</p>
 
-  <hr>
+      <p>Good service names:</p>
 
-  <h3 class="heading-medium" id="3">Use the words users use</h3>
+      <ul class="list list-bullet">
+        <li>come from user research</li>
+        <li>describe the problem it solves for a user</a>
+        <li>describe a task, not a technology</li>
+        <li>are verbs, not nouns</li>
+        <li>use the words users use</li>
+        <li>don't have government names in them</li>
+        <li>don't change with policy or technology</li>
+      </ul>
 
-  <p>Some text</p>
+      <hr>
 
-  <hr>
+      <h3 class="heading-medium" id="3">Examples</h3>
 
-  <h3 class="heading-medium" id="4">Case study</h3>
+      <p>Examples of good service names:</p>
 
-  <p>Some text</p>
+      <ul class="list list-bullet">
+        <li><a href="https://www.gov.uk/register-to-vote">Register to vote</a></li>
+        <li><a href="#">Help with court fees</a></a>
+        <li><a href="#">Renew passport</a></li>
+        <li><a href="https://www.gov.uk/apply-apprenticeship">Find an apprenticeship</a></li>
+      </ul>
 
-  <hr>
+      <hr>
 
-  <h3 class="heading-medium" id="5">Measure name performance</h3>
+      <h3 class="heading-medium" id="5">Measure performance</h3>
 
-  <p>Some text</p>
+      <p>There are metrics that indicate how a service name is performing:</p>
 
-    </div>
-  </div>
+      <ul class="list list-bullet">
+        <li>increased page views from organic search</li>
+        <li>click through rate to a 'Start' button</li>
+        <li>external search volumes between old and new name</li>
+        <li>reduce number of on page searches about the service</li>
+        <li>number of users calling to ask "How do I...?"</li>
+      </ul>
 
     </div>
   </div>
